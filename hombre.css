@@ -1,0 +1,27 @@
+@import url(/hombre.html);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.barraH{
+    background-color:#FFD966;
+    padding-left: 10px;
+    width: auto;
+    line-height: 50px;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.barraV{
+    background-color:#FFF2CC;
+    padding-left: 10px;
+    width:170px;
+    height: 970px;
+    font-size: 28px;
+}
+
+div > a{
+    text-decoration: none;
+    color: white;
+}
