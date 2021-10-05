@@ -1,27 +1,81 @@
-@import url(/hombre.html);
-
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.barraH{
-    background-color:#FFD966;
-    padding-left: 10px;
-    width: auto;
-    line-height: 50px;
-    font-size: 28px;
-    font-family: 'Courier New', Courier, monospace;
+.barraH {
+  background-color: #ffd966;
+  padding-left: 10px;
+  width: auto;
+  line-height: 50px;
+  font-size: 28px;
+  font-family: "Courier New", Courier, monospace;
 }
-.barraV{
-    background-color:#FFF2CC;
-    padding-left: 10px;
-    width:170px;
-    height: 970px;
-    font-size: 28px;
+.barraV {
+  background-color: #fff2cc;
+  padding-left: 10px;
+  width: 170px;
+  height: 970px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 28px;
 }
 
-div > a{
+li {
+    list-style: none;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+li > a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+  }
+
+
+
+div > a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/* Buscar de barra */
+
+
+.buscar > p{
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.buscar > input{
+  border: 0;
+  background: white;
+  border-radius: 5px;
+  width: 250px;
+  line-height: 30px;
+  position: fixed;
+  left: 230px;
+  top: 10px;
+  padding-left: 10px;
+}
+
+/* Imagenes */
+
+.img1{
+  display:flex;
+  position: fixed;
+  top: 100px;
+  left: 450px;
+}
+.img2{
+  display:flex;
+  position: fixed;
+  top: 520px;
+  left: 450px;
+  grid-column: auto;
+}
+
+div > img{
+  width: 350px;
 }
